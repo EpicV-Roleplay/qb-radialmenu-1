@@ -57,7 +57,7 @@ end
 local function SetupJobMenu()
     local JobMenu = {
         id = 'jobinteractions',
-        title = 'Work',
+        title = 'Job',
         icon = 'briefcase',
         items = {}
     }
@@ -78,7 +78,7 @@ end
 local function SetupVehicleMenu()
     local VehicleMenu = {
         id = 'vehicle',
-        title = 'Vehicle',
+        title = 'Fahrzeug',
         icon = 'car',
         items = {}
     }
@@ -206,7 +206,7 @@ RegisterCommand('radialmenu', function()
     end
 end)
 
-RegisterKeyMapping('radialmenu', Lang:t("general.command_description"), 'keyboard', 'F1')
+RegisterKeyMapping('radialmenu', Lang:t("general.command_description"), 'keyboard', 'X')
 
 -- Events
 

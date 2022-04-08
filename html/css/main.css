@@ -72,6 +72,7 @@ svg.menu > g.sector > path {
 svg.menu > g.sector > text,
 svg.menu > g.sector > use {
     font-family: 'Poppins', sans-serif;
+    text-shadow: 1.5px 1.5px 5px rgba(1,1,1,1);
     margin-top: 5px;
     font-size: 2.8px;
     letter-spacing: 0.2px;
@@ -81,17 +82,18 @@ svg.menu > g.sector > use {
 }
 
 svg.menu > g.sector:hover > path {
-    fill: #dc143c;
+    fill: #8a10bb;
 
 }
 
 svg.menu > g.center:hover > circle {
-    fill:#dc143c;
+    fill:#7b0bc5;
 }
 
 svg.menu > g.center > circle {
     cursor: pointer;
-    fill: rgb(23 23 23 / 80%);
+    fill: #00000080;
+    fill-opacity: 0.5;
 }
 
 svg.menu > g.center > text,
