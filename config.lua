@@ -1,6 +1,6 @@
 Config = {}
 
-Config.EnableExtraMenu = false
+Config.EnableExtraMenu = true
 
 Config.MenuItems = {
     [1] = {
